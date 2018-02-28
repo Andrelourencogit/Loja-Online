@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Loja Shoes </title>
+    <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
+     <link rel="stylesheet" href="bootstrap\js\bootstrap.min.js">
+     <link rel="stylesheet" href="css\loja.css">
+     <script type="text/javascript" src="jquery\jquery.js"></script>
+     <script type="text/javascript" src="javascript\loja.js"></script>
+<!--    --> 
+</head>
+
+
+<body>
+<nav id="barraNavegação" class="navbar navbar-inverse">
+ 
+      <a class="navbar-brand" href="#">Loja Online 2.0</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#" id="entrarUser" class="glyphicon glyphicon-user ,badge">Entrar</a></li>
+      <li><a href="#" id="iconeCar" class="glyphicon glyphicon-shopping-cart">0</a></li>
+      <li><a href="#" id="sair" >Sair</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<div id="container" class="container"></div>
+<div id="detalhe" class="container"></div>
+
+<div id="entrar" class="container">
+  <form id="formEntrar" name="formEntrar">
+     <p class="glyphicon glyphicon-user" > Identificação</p><br/>
+  Nome:<input type=text name="botaoEntrar" placeholder="Digite seu nome">
+      <input type=button id="botaoEntrar" value="Entrar" onClick="clicEntrar()">
+  </form>
+</div>
+
+
+
+
+    <div id="carrinho" class="col-sm-10 col-xs-6 ">
+      <h2 id="tableTit">Seu Carrinho!</h2>
+      <table  id="tableCarrinho" class="col-sm-10 col-xs-6 table-bordered">
+        <tr>
+          <th>Produto</th>
+          <th>Nome</th>
+          <th>Quantidade</th>
+          <th>Preço Total Do Item</th>
+        </tr>
+      </table>
+       <h2 id="calculoTotal" class="col-sm-10 col-xs-6">Clique para Calcular o total da compra</h2>
+       <h2 id="valTotal" class="col-sm-10 col-xs-6">Valor Total Da compra</h2>
+      <input class="col-sm-10 col-xs-6" type=button name="'continuar'" id="continuat" value="Fechar Resumo" onClick="continuarCompra()">
+    </div>
+    
+
+</body>
+

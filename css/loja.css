@@ -1,0 +1,113 @@
+body{
+	margin: auto;
+	background-color:#F0E68C;
+	padding-bottom: 120px;
+}
+
+
+
+nav{
+  position: fixed;
+  top: 2px;
+}
+#entrar{
+  background: white;
+  font-size: 20px;
+}
+
+#valTotal{
+	background: red;
+}
+
+
+#tableCarrinho{
+	background: white;
+	text-align: center;
+	color: blue;
+	width: 50%;
+	font-size: 20px;
+
+}
+
+input[type=number] {
+    border: 2px solid blue;
+    border-radius: 4px;
+
+
+}
+input[type=button] {
+    border: 2px solid red;
+    border-radius: 4px;
+
+}
+
+
+h1{
+	font-family: Arial;
+	color: black;
+	background-color: #191970;
+	font-size: 6em;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 30px
+	margin:auto;
+}
+h3{
+	font-family: Arial;
+	color: white;
+	background-color: #191970;
+	font-size: 1em;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+h2{
+	font-family: Arial;
+	color: white;
+	background-color: #191970;
+	font-size: 3em;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+
+button{
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+th{
+	background: white;
+}
+  div{
+        padding: 5px;
+        font-size: 10px;
+   
+        background: white;
+        margin-bottom: 5px;
+        text-align: center;
+
+      
+
+
+    
+    }
+
+
+    input{
+     color: red;
+  
+}
+    body{
+        background: gray;
+    }
+   p{
+    font-size: 20px;
+   }
+   .container{
+    background: white;
+
+    
+     
+   }
